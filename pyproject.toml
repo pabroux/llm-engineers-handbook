@@ -1,0 +1,30 @@
+[project]
+authors = [{name = "pabroux", email = "pierre-alexandrebroux@live.fr"}]
+name = "llm-twin"
+requires-python = ">= 3.11"
+version = "0.1.0"
+dependencies = ["pymongo>=4.6.2", "click>=8.0.1", "loguru>=0.7.2", "rich>=13.7.1", "numpy>=1.26.4", "datasets>=3.0.1", "torch>=2.2.2", "zenml[server]==0.74.0", "selenium>=4.21.0", "webdriver-manager>=4.0.1", "beautifulsoup4>=4.12.3", "html2text>=2024.2.26", "jmespath>=1.0.1", "chromedriver-autoinstaller>=0.6.4", "qdrant-client>=1.8.0", "langchain>=0.2.11", "sentence-transformers>=3.0.0", "langchain-openai>=0.1.3", "jinja2>=3.1.4", "tiktoken>=0.7.0", "fake-useragent>=1.5.1", "langchain-community>=0.2.11", "fastapi>=0.110.0,<0.111", "uvicorn>=0.30.6", "opik>=0.2.2"]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["osx-arm64"]
+
+[tool.pixi.pypi-dependencies]
+
+[tool.pixi.tasks]
+
+[tool.pixi.dependencies]
+python = "3.11.8.*"
+
+[tool.pixi.environments]
+default = { solve-group = "default" }
+dev = { features = ["dev"], solve-group = "default" }
+aws = { features = ["aws"], solve-group = "default" }
+
+[dependency-groups]
+dev = ["ruff>=0.4.9", "pytest>=8.2.2", "pre-commit>=3.7.1"]
+aws = ["sagemaker>=2.232.2", "s3fs>=2022.3.0", "aws-profile-manager>=0.7.3", "kubernetes>=30.1.0", "sagemaker-huggingface-inference-toolkit>=2.4.0"]
