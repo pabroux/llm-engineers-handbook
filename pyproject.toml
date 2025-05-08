@@ -53,7 +53,7 @@ local-infra-up= [
   { task = "local-zenml-server-down" },
   { task = "local-zenml-server-up" },
 ]
-local-infrastructure-down = [
+local-infra-down = [
   { task = "local-docker-infra-down" },
   { task = "local-zenml-server-down" },
 ]

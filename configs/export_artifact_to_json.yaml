@@ -1,0 +1,13 @@
+settings:
+  docker:
+    parent_image: 992382797823.dkr.ecr.eu-central-1.amazonaws.com/zenml-rlwlcs:latest
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+
+parameters:
+  artifact_names:
+    - raw_documents
+    - cleaned_documents
+    - instruct_datasets
+    - preference_datasets
