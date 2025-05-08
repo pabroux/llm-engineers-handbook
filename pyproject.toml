@@ -16,6 +16,17 @@ platforms = ["osx-arm64"]
 [tool.pixi.pypi-dependencies]
 
 [tool.pixi.tasks]
+# Data pipelines
+# Utility pipelines
+# Training pipelines
+# Inference
+# Infrastructure
+# ↳ Local infrastructure
+# ↳ Settings
+# ↳ SageMaker
+# ↳ Docker
+# QA
+# Tests
 
 [tool.pixi.dependencies]
 python = "3.11.8.*"
