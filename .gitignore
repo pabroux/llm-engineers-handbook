@@ -1,5 +1,8 @@
-# DS_Store
+# macOS files
 .DS_Store
+
+# env files
+.env
 
 # pixi environments
 .pixi
