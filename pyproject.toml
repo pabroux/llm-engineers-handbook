@@ -44,16 +44,16 @@ call-inference-ml-service = "curl -X POST 'http://127.0.0.1:8000/rag' -H 'Conten
 
 # Infrastructure
 # ↳ Local infrastructure
-local-docker-infra-up = "docker compose up -d"
-local-docker-infra-down = "docker compose stop"
+local-docker-infrastructure-up = "docker compose up -d"
+local-docker-infrastructure-down = "docker compose stop"
 local-zenml-server-down = "pixi run zenml logout --local"
 local-zenml-server-up = { cmd = "pixi run zenml login --local", env = { OBJC_DISABLE_INITIALIZE_FORK_SAFETY = "YES" } }
-local-infra-up= [
+local-infrastructure-up= [
   { task = "local-docker-infra-up" },
   { task = "local-zenml-server-down" },
   { task = "local-zenml-server-up" },
 ]
-local-infra-down = [
+local-infrastructure-down = [
   { task = "local-docker-infra-down" },
   { task = "local-zenml-server-down" },
 ]
