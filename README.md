@@ -29,7 +29,7 @@ Compared to the requirements of the official repository, only install the follow
 
 ## Install
 
-All `pixi` commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
+All pixi commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
 
 ## Usage
 
