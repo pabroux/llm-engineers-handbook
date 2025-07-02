@@ -1,0 +1,19 @@
+name: Auto assigner
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+permissions:
+  issues: write
+  pull-requests: write
+jobs:
+  auto-assigner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto-assign issue
+        uses: pozil/auto-assign-issue@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          assignees: pabroux
+          numOfAssignee: 1
