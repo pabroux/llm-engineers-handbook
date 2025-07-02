@@ -1,4 +1,4 @@
-# LLM Engineer's Handbook
+# 👷 LLM Engineer's Handbook
 <p>
   <a href="https://github.com/pabroux/unvX/blob/master/LICENSE">
     <picture>
