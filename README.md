@@ -31,14 +31,14 @@ Compared to the requirements of the official repository, only install the follow
 
 All Pixi commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
 
-## Usage
-
-First, install the dependencies:
+Once you have these two files in your repository, install the dependencies as follows:
 ```shell
 pixi install -a
 ```
 
-Then, replace any call or task made in the book with `poe` by `pixi run`:
+## Usage
+
+Replace any call or task made in the book with `poe` by `pixi run`:
 ```shell
 pixi run local-infrastructure-up # is the same as `poe local-infrastructure-up`
 ```
