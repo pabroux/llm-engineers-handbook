@@ -25,7 +25,7 @@ This is a [pixi](https://pixi.sh)-based adaptation of the official repository [L
 
 Compared to the requirements of the official repository, only install the following instead of [poetry](https://github.com/python-poetry/poetry) and its [poe the poet](https://github.com/nat-n/poethepoet) plugin:
 
-- [pixi](https://pixi.sh).
+- [pixi](https://pixi.sh)
 
 ## Install
 
