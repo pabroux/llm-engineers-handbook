@@ -13,7 +13,7 @@
 </p>
 
 
-This is a [pixi](https://pixi.sh)-based adaptation of the official repository [LLM Engineer's Handbook](https://github.com/PacktPublishing/LLM-Engineers-Handbook) by [Paul Iusztin](https://github.com/iusztinpaul) and [Maxime Labonne](https://github.com/mlabonne). The primary modification is the replacement of [poetry](https://github.com/python-poetry/poetry) and its [poe the poet](https://github.com/nat-n/poethepoet) plugin with pixi.
+This is a [Pixi](https://pixi.sh)-based adaptation of the official repository [LLM Engineer's Handbook](https://github.com/PacktPublishing/LLM-Engineers-Handbook) by [Paul Iusztin](https://github.com/iusztinpaul) and [Maxime Labonne](https://github.com/mlabonne). The primary modification is the replacement of [Poetry](https://github.com/python-poetry/poetry) and its [Poe the Poet](https://github.com/nat-n/poethepoet) plugin with Pixi.
 
 ## Table of contents
 
@@ -23,13 +23,13 @@ This is a [pixi](https://pixi.sh)-based adaptation of the official repository [L
 
 ## Requirements
 
-Compared to the requirements of the official repository, only install the following instead of [poetry](https://github.com/python-poetry/poetry) and its [poe the poet](https://github.com/nat-n/poethepoet) plugin:
+Compared to the requirements of the official repository, only install the following instead of [Poetry](https://github.com/python-poetry/poetry) and its [Poe the Poet](https://github.com/nat-n/poethepoet) plugin:
 
-- [pixi](https://pixi.sh)
+- [Pixi](https://pixi.sh)
 
 ## Install
 
-All pixi commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
+All Pixi commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
 
 ## Usage
 
