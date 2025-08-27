@@ -1,15 +1,7 @@
 # 👷 LLM Engineer's Handbook
 <p>
-  <a href="https://github.com/pabroux/unvX/blob/master/LICENSE">
-    <picture>
-      <img src="https://img.shields.io/github/license/pabroux/unvX.svg?label=Licence" alt="License Badge">
-    </picture>
-  </a>
-  <a href="https://pixi.sh">
-    <picture>
-      <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json" alt="pixi Badge">
-    </picture>
-  </a>
+  <a href="https://github.com/pabroux/unvX/blob/master/LICENSE"><img src="https://img.shields.io/github/license/pabroux/llm-engineers-handbook.svg?label=License" alt="License Badge"></a>
+  <a href="https://pixi.sh"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json" alt="Pixi Badge"></a>
 </p>
 
 
