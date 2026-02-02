@@ -11,7 +11,7 @@ This is a [Pixi](https://pixi.sh)-based adaptation of the official repository [L
 ## Table of contents
 
 - [Requirements](#requirements)
-- [Install](#install)
+- [Installation](#installation)
 - [Usage](#usage)
 
 ## Requirements
@@ -20,7 +20,7 @@ Compared to the requirements of the official repository, only install the follow
 
 - [Pixi](https://pixi.sh)
 
-## Install
+## Installation
 
 All Pixi commands are configured in the `pyproject.toml` file. The `pixi.lock` file records the exact package versions to guarantee reproducibility. These two files are the only ones that differ from the original repository. You can either clone this repository directly or copy just these two files into your clone of the official repository.
 
