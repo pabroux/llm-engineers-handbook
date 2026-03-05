@@ -2,7 +2,7 @@
 <p>
   <a href="https://pre-commit.com"><img src="https://img.shields.io/badge/pre--commit-enabled-green?logo=pre-commit" alt="pre-commit Badge"></a>
   <a href="https://pixi.sh"><img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/prefix-dev/pixi/main/assets/badge/v0.json" alt="Pixi Badge"></a>
-  <a href="https://github.com/pabroux/unvX/blob/master/LICENSE"><img src="https://img.shields.io/github/license/pabroux/llm-engineers-handbook.svg?label=License" alt="License Badge"></a>
+  <a href="https://github.com/pabroux/llm-engineers-handbook/blob/master/LICENSE"><img src="https://img.shields.io/github/license/pabroux/llm-engineers-handbook.svg?label=License" alt="License Badge"></a>
 </p>
 
 
